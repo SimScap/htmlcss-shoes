@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section.bg-red{
+    background-color: rgb(207, 93, 93);
+    width: 100vw;
+    height:100vh;
+    position: relative;
+    text-align: center;
+    
+}
+
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%)
+
+    
+}
+
+
+
+section.bg-green{
+    background-color: lightgreen;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+section.bg-yellow{
+    background-color: lightgoldenrodyellow;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+
+
+h1{
+    position: absolute;
+    transform:translate(-50% , -50%);
+    top: 70%;
+    left: 50%;
+    width: 20%;
+    color: yellow;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 3.3rem;
+    margin-top: 3rem;
+    }
