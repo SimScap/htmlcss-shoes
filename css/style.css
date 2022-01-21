@@ -10,11 +10,6 @@ header{
     z-index: 1;  
 }
 
-a:hover{
-    background-color: lime;
-}
-
-
 header ul{
     text-align: right;
     padding: 20px;
@@ -42,13 +37,17 @@ header ul li a {
     font-size: 2rem;
 }
 
+a:hover{
+    background-color: rgb(139, 111, 177);
+    color: blue;
+}
+
 section.bg-red{
     background-color: rgb(255, 0, 0);
     width: 100vw;
     height:calc(100vh);
     position: relative;
     text-align: center;
-    
 }
 
 section img{
@@ -56,9 +55,7 @@ section img{
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
-
 }
-
 
 
 section.bg-green{
@@ -75,10 +72,7 @@ section.bg-yellow{
     height: 100vh;
     position: absolute;
     height:calc(100vh);
-
 }
-
-
 
 h1{
     position: absolute;
@@ -97,4 +91,22 @@ h1{
     color: green;
     }
 
-   
+    ul {
+        animation-duration: 1s;
+        animation-name: slidein;
+    }
+    @keyframes slidein {
+        from {
+        margin-left: 100%;
+        width: 300%;
+        }
+        75% {
+        font-size: 300%;
+        margin-right: 25%;
+        width: 150%;
+        }
+        to {
+        margin-right: 0%;
+        width: 100%;
+        }
+    }
